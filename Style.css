@@ -1,0 +1,213 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+
+.bg-deep{
+    background-color: hsl(218, 28%, 13%);
+    /* background: url("images/bg-curvy-desktop.svg") no-repeat ; */
+    
+}
+.text-white{
+    color: white;
+}
+.px-3{
+    padding-left: calc(3*0.25rem);
+    padding-right: calc(3*0.25rem);
+}
+.p-4{
+    padding: calc(4 * 0.25rem)
+}
+.mt-4{
+    margin-top: 1rem;
+}
+.get-started{
+    background-color: hsl(198, 60%, 50%);
+    padding: 0.75rem 1.75rem;
+    border: 0px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.25rem;
+    width: 35%;
+}
+.w-50{
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
+.p-5{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.font {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 0;
+    font-weight: 700;
+}
+.w-25{
+    width: 25%;
+}
+.mt-5{
+    margin-top: 5rem;
+    padding: 1rem 9rem;
+}
+.mt-6{
+    padding-top: 6.5rem;
+    padding-right: 5rem;
+}
+.heading {
+    padding-right: 20rem;
+    
+}
+.illustration {
+    padding-left: 2rem;
+
+}
+ .link{
+    color: hsl(176, 68%, 64%);
+}
+.icon {
+    color: hsl(176, 68%, 64%);  
+}
+.border{
+    border: 2px solid hsl(218, 28%, 13%);
+    background-color: hsl(219, 30%, 18%);
+}
+.mt-7{
+    padding-top: 2rem;
+}
+.m-4{
+    margin-right: 2rem;
+padding: 1.3rem;
+}
+.m-5{
+    margin-left:1.5rem;
+}
+.image{
+    border: 0px;
+    border-radius: 100px;   
+}
+.pt-7{
+    padding:2rem 1rem 1rem 0.5rem
+}
+.w-70{
+    width: 70%;
+}
+.text-center{
+    font-weight: 700;
+    
+}
+.input{
+    border: 0px;
+    border-radius: 100px;
+    height: 1.2rem;
+    width: 100%;
+    color: white;
+    padding: 0.8rem 8rem;
+    margin-right: 1.3rem;
+    margin-bottom: 1rem;
+}
+.for-free{
+    background-color: hsl(198, 60%, 50%);
+    padding: 0.3rem 2rem;
+    border: 0px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.5rem;
+    margin-left: 2.6rem;
+    text-align: none;
+    width: 100%;
+}
+.box{
+    position: absolute;
+    right: 5.8%;
+    margin-top: 3.5rem;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    margin-top: 17.5rem;
+}
+.fylo{
+    padding-top: 12rem;
+    padding-left: 6rem;
+}
+.l-s{
+    list-style: none;
+    margin: 0;
+}
+.w-25{
+    width: 25%;
+}
+.location{
+    padding-left: 6rem;
+    padding-right: 0;
+    margin-right: 0;
+}
+.pa-1{
+    padding-right: 2rem;
+}
+.icons{
+    padding-left: 5rem;
+    padding-right: 1.5rem;
+}
+.paragraph{
+    font-weight: 400;   
+}
+.px-7{
+    padding-right: 5rem;
+}
+.px-8{
+    padding-top: 1rem;
+}
+.list{
+    margin-top: 0;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+}
+.mx-9{
+    margin-left: 8.5rem;
+}
+.pxt-3{
+    padding-right: 0.5rem;
+}
+a{
+    color: hsl(176, 68%, 64%);
+}
+.attribution{
+    text-align: center;
+}
+.u-l {
+    padding-bottom: 1rem;
+}
+
+/* Media Queries */
+/* mobile */
+* {
+    box-sizing: border-box;  
+}
+@media screen and (max-width:375px) {
+ div.nav-bar {
+     width: 100vw;
+     padding: 0
+    }
+}
