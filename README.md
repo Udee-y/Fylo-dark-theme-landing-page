@@ -29,6 +29,7 @@ Users should be able to:
 
 ### Links
 - Live Site URL: [fylo-dark-theme-landing-page-master](http://127.0.0.1:5501/fylo-dark-theme-landing-page-master/index.html)
+- Link to article on Hashnode: https://yhudee.hashnode.dev/my-experiences-so-far-at-side-hustle-internship
 
 ## My process
 
@@ -70,7 +71,7 @@ I learnt how to use CSS flex while working on this challenge.
 ```
 
 ### Continued development
-I Really Look Forward To Learning
+I Really Look Forward To Learning:
 
 - Scss
 - Less
