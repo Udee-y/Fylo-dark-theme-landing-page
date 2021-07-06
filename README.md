@@ -28,7 +28,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Links
-- Live Site URL: [Add live site URL here](http://127.0.0.1:5501/fylo-dark-theme-landing-page-master/index.html)
+- Live Site URL: [fylo-dark-theme-landing-page-master](http://127.0.0.1:5501/fylo-dark-theme-landing-page-master/index.html)
+- Link to article on Hashnode: https://yhudee.hashnode.dev/my-experiences-so-far-at-side-hustle-internship
 
 ## My process
 
@@ -70,7 +71,7 @@ I learnt how to use CSS flex while working on this challenge.
 ```
 
 ### Continued development
-I Really Look Forward To Learning
+I Really Look Forward To Learning:
 
 - Scss
 - Less
@@ -82,7 +83,7 @@ I Really Look Forward To Learning
 
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Udee-y](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@didi_inyang](https://www.twitter.com/didi-inyang)
 
 
