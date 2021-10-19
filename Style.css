@@ -5,7 +5,31 @@ p{
 
 body{
     font-size: 14px;
+    font-family: sans-serif;
 }
+/* #menu-bar {
+    display: none;
+    margin-left: 50px;
+}
+#menu {
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    border-radius: 5px;
+}
+#bar1 {
+    transform: translateY(-4px);
+}
+#bar3 {
+    transform: translateY(4px);
+} */
 .flex{
     display: flex;
 }
@@ -91,6 +115,7 @@ body{
 .border{
     border: 2px solid hsl(218, 28%, 13%);
     background-color: hsl(219, 30%, 18%);
+    padding-bottom: 1rem;
 }
 .mt-7{
     padding-top: 2rem;
@@ -114,41 +139,55 @@ padding: 1.3rem;
 }
 .text-center{
     font-weight: 700;
-    
 }
-.input{
-    border: 0px;
-    border-radius: 100px;
-    height: 1.2rem;
-    width: 100%;
+.section-text {
+    text-align: center;
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.buttons{
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    align-items: center;
+}
+.button1{
+    transform: translateX(-30px);
+}
+.button2{
+    transform: translateX(40px);
+}
+ .input{
+    border: 0px solid;
+    border-radius: 50px;
+    height: 30px;
     color: white;
-    padding: 0.8rem 8rem;
-    margin-right: 1.3rem;
-    margin-bottom: 1rem;
-}
+    width: 22vw;
+   
+}  
 .for-free{
     background-color: hsl(198, 60%, 50%);
-    padding: 0.3rem 2rem;
     border: 0px;
-    border-radius: 100px;
+    border-radius: 25px;
     color: white;
+    height: 30px;
+ }
+ .for-free p {
     font-weight: 700;
-    font-size: 0.5rem;
-    margin-left: 2.6rem;
-    text-align: none;
-    width: 100%;
-}
+    font-size: 14px;
+ }
 .box{
     position: absolute;
-    right: 5.8%;
-    margin-top: 3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 7rem;
 }
 footer{
     background-color: hsl(216, 53%, 9%);
-    margin-top: 17.5rem;
+    margin-top: 16rem;
 }
 .fylo{
-    padding-top: 12rem;
+    padding-top: 10rem;
     padding-left: 6rem;
 }
 .l-s{
@@ -174,7 +213,8 @@ footer{
     font-weight: 400;   
 }
 .px-7{
-    padding-right: 5rem;
+    padding-right: 4rem;
+    font-weight: 400;
 }
 .px-8{
     padding-top: 1rem;
@@ -195,9 +235,14 @@ a{
 }
 .attribution{
     text-align: center;
+    margin-top: 1rem;
+}
+.attribution a {
+    text-decoration: none;
 }
 .u-l {
     padding-bottom: 1rem;
+    font-weight: 400;
 }
 
 /* Media Queries */
@@ -205,9 +250,11 @@ a{
 * {
     box-sizing: border-box;  
 }
+@media screen and (max-width:800px) {
+#menu-bar {
+    display: block;  
+}
+}
 @media screen and (max-width:375px) {
- div.nav-bar {
-     width: 100vw;
-     padding: 0
-    }
+ 
 }
